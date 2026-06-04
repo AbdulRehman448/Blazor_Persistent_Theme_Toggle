@@ -197,6 +197,7 @@
 
 
         /* 🌙 DARK MODE PALETTE */
+        /* 🌙 DARK MODE PALETTE */
         .app-wrapper.dark-mode {
             background-color: #0f172a; /* Deep Space Slate base */
             color: #f1f5f9;
@@ -244,6 +245,11 @@
             .app-wrapper.dark-mode .app-footer {
                 background-color: #1e293b;
                 border-top: 1px solid #334155;
+            }
+
+            /* FIX: High-contrast coloring for the developer credentials text in dark mode */
+            .app-wrapper.dark-mode .dev-name {
+                color: #ffffff !important;
             }
 
             .app-wrapper.dark-mode .developer-credit {
